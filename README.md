@@ -1,5 +1,7 @@
 # RoboCourier Mobile
 
+Mobile app of RoboCourier, our team's graduation project at Yaşar University (2026). I developed the mobile app; robot and backend code are kept in the team's private repository.
+
 Cross-platform mobile app for requesting and tracking deliveries made by indoor courier robots.
 
 ## Features
@@ -8,6 +10,10 @@ Cross-platform mobile app for requesting and tracking deliveries made by indoor 
 - QR code handoff between sender, robot and recipient
 - Live robot status and map via ROS bridge (roslib)
 - Push notifications and password reset by email
+
+## Screenshots
+
+<!-- Add screenshots here -->
 
 ## Tech
 
