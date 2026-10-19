@@ -1,0 +1,5 @@
+EXPO_PUBLIC_API_URL=http://localhost:3000
+# Required for iOS push token in Expo Go / dev: EAS project UUID
+EXPO_PUBLIC_EAS_PROJECT_ID=xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx
+
+

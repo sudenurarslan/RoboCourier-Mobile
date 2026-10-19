@@ -1,0 +1,19 @@
+services:
+  robocourier-postgres:
+    image: postgres:16
+    container_name: robocourier-postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: robocourier
+      POSTGRES_PASSWORD: robocourier_password
+      POSTGRES_DB: robocourier
+    ports:
+      - "5433:5432"
+    volumes:
+      - robocourier_pgdata:/var/lib/postgresql/data
+      - ./backend/db/init:/docker-entrypoint-initdb.d:ro
+
+volumes:
+  robocourier_pgdata:
+
+
