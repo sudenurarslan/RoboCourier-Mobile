@@ -1,6 +1,6 @@
 # RoboCourier Mobile
 
-Mobile app of RoboCourier, our team's graduation project at Yaşar University (2026). I developed the mobile app; robot and backend code are kept in the team's private repository.
+Mobile app of RoboCourier, our team's graduation project at Yaşar University (2026). This repository contains the mobile app and the backend API it uses; the robot (ROS) code is kept in the team's private repository. My main contribution was the mobile app.
 
 Cross-platform mobile app for requesting and tracking deliveries made by indoor courier robots.
 
